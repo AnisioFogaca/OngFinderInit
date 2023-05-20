@@ -38,3 +38,17 @@
     border-right: 2px solid #141414;
     font: bold;
 }
+
+h1 {
+    text-align: center; 
+ }
+ 
+ .logar {
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ }
+ 
