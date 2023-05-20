@@ -1,27 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login-css.css">
-    <title>Tela de login</title>
+  <meta charset="UTF-8">
+  <title>Página de Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div></div>
-    <div class="logar">
-    <img src="/images/ongfinderlogo.png" alt="">
-    <h1>Login...</h1>
-    <label for="">E-mail: </label>
-    <input type="email" name="" id="">
-    <label for="">Senha: </label>
-    <input type="password" name="" id="">
-    <input type="checkbox" name="" id="">
-    <label for="">continuar logado por 30 dias.</label>
-    <button type="submit">Login</button>
-    <label for="">Ou</label>
-    <button type="submit">Cadastro</button>
-    <a href="/esqueceusenha"><p>Esqueceu sua senha.</p></a>
-</div>
+  <header>
+    <h1>Faça Login</h1>
+  </header>
+  
+  <section>
+    <form>
+      <fieldset>
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <br>
+      <div>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+      </div>
+      </fieldset>
+      <div>
+        <input type="submit" value="Entrar">
+      </div>
+    </form>
+  </section>
+  
+  <footer>
+    <p>Ainda não tem uma conta? <a href="Inscrição.html">Cadastre-se</a></p>
+    <p>Esqueceu a senha? <a href="recuperarsenha.html">Clique aqui!</a></p>
+    <br>
+    <p>Sou uma ONG <a href="Inscrição_ong.html">Cadastre sua ong aqui!</a></p>
+  </footer>
 </body>
 </html>
