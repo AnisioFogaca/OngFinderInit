@@ -73,3 +73,35 @@ h1 {
  .navLogin:hover {
     opacity: 100%;
  }
+
+.sobre {
+    display: flex;
+    margin: 20px;
+}
+.sobre img {
+    margin-top: 28px;
+    width: 50%;
+    height: auto;
+
+}
+
+.sobre p {
+    padding: 28px;
+
+}
+.sobre button {
+    background-color: #1287ba;
+    opacity: 85%;
+    color: #f6fafc;
+    border-radius: 4px;
+    font-size: 24px;
+    height: auto;
+    width: auto;
+    margin-top: 16px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.sobre button:hover {
+     opacity: 100%;
+}
