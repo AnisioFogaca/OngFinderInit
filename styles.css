@@ -105,3 +105,19 @@ h1 {
 .sobre button:hover {
      opacity: 100%;
 }
+
+.banner {
+    display: flex;
+    background-color: #1287ba;
+    color: #F6FAFC;
+    padding: 20px;
+    width: 100%;
+    gap: 16px;
+}
+.banner div {
+    font-size: 80px;
+}
+
+.banner p {
+    font-size: 28px;
+}
