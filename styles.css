@@ -15,17 +15,28 @@
 
 .navBar {
     font-size: 24px;
+    width: 100%;
+}
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 28px;
-    gap: 24px;
-    margin-top: 16px;
+}
+.navBar li {
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+.navBar a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
 }
 
 .navItens {
     color: #141414;
-    text-decoration: none;
     border: none;
     padding-right: 4px;
     transition: border-width 0.3s ease;
@@ -52,3 +63,13 @@ h1 {
  align-items: center;
  }
  
+ .navLogin {
+    background-color: #1287ba;
+    opacity: 85%;
+    color: #f6fafc;
+    border-radius: 4px;
+ }
+ 
+ .navLogin:hover {
+    opacity: 100%;
+ }
