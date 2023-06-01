@@ -139,3 +139,339 @@ h1 {
     width: 100%;
     background-color: #d9d9d9;
 }
+
+/*tela-campanhas______________________________________________________________________________________*/
+html {
+   scroll-behavior: smooth;
+ }
+
+
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:#F6FAFC;
+    overflow-x: hidden;
+    
+}
+/*_______________________________________________________________________________________________________*/
+
+header{
+    background: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 11vh;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+ }
+ header {
+    transition: transform 0.8s ease;
+}
+
+header.hidden {
+    transform: translateY(-100%);
+}
+
+
+ #logo1{
+    z-index: 1;
+    margin-left: 3rem;
+ }
+
+#text{
+    margin-top: -4rem;
+}
+
+ #sobre{
+    margin-top: 3rem;
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 14%;
+    transition: color 0.8s ease-in-out;
+ }
+
+#sobre:hover {
+   color: #1287BA;
+ }
+
+ #campanhas{
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    transition: color 0.8s ease-in-out;
+ }
+ #campanhas:hover {
+    color: #1287BA;
+  }
+
+ #noticias{
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    transition: color 0.8s ease-in-out;
+ }
+ #noticias:hover {
+    color: #1287BA;
+  }
+
+ #divimagem{
+    width: 3rem;
+    height: 3rem;
+}
+
+ #imagemprofile{
+    display: flex;
+    margin-left: 93%;
+    margin-top: -65px;
+    width: 4%;
+    cursor: pointer;
+ }
+ 
+/*____________________________________________________________________________________________________*/
+
+#imagemdog{
+    position: relative;
+    margin-left: 27%;
+    margin-top: 10rem;
+    border-radius: 4px;
+    z-index: -2;
+}
+
+#retanguloazul{  
+    width: 50rem;
+    height: 23rem;
+    margin-left: 31%;
+    border-radius: 10px;
+    background: #1287BA;
+    box-shadow: 0px 10px 10px #000000;
+    border-radius: 4px;
+    margin-top: -6rem; 
+    z-index: -5;
+}
+
+#castracao{
+    font-family: Arial, Helvetica, sans-serif ;
+    color: white;
+    font-size: 38px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    
+}
+
+#calendario{
+    position: relative;         
+    width: 20rem;
+    height: 10rem;
+    margin-left: 3%;
+    margin-top: 2rem; 
+}
+
+#dias{
+    position: relative;         
+    width: 8rem;
+    height: 9rem;
+    margin-left: 0%;
+    border-radius: 10px;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-top: 5rem; 
+}
+#numeroS{
+    position: relative;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 12%;
+    margin-top: 1rem;
+}
+#textodias{
+    position: relative;
+    font-size: 2rem;
+    margin-left: 17%;
+    margin-top: 0rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+#horas{
+    position: relative;         
+    width: 8rem;
+    height: 9rem;
+    margin-left: 44%;
+    border-radius: 10px;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-top: -160px; 
+}
+#numeroD{
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 12%;
+    margin-top: 1rem;
+}
+#textodiasS{
+    font-size: 2rem;
+    margin-left: 21%;
+    margin-top: -1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+#meta1{
+margin-top: -10rem;
+}
+
+#meta{
+    margin-top: 12rem;
+    margin-left: -4px;
+}
+
+#quantidade{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+}
+#quantidadeA{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    margin-left: 27%;
+    margin-top: -26px;
+    font-weight: 200;
+}
+/*_________________________________________________________________________________________________*/
+
+#sobresobre{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 31%;
+    margin-top: 5rem;
+}
+
+#textsobre{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: -5%;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#doar{
+    width: 200px;
+    height: 60px;
+    background-color: #1287BA;
+    border-radius: 5px;
+    margin-top: 15rem;
+    margin-left: 43%;
+    transition: 1s;
+}
+#doar:hover
+{
+    transform:scale(1.1);
+}
+
+#doartext{
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 3rem;
+    top: 2px;
+    transition: 1s;
+}
+
+#blueline{
+    background-color: #1287BA;
+    margin-top: 10rem;
+}
+
+#logorodape{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+#ong{
+    text-align: center;
+    margin-left: -128rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#linksrodape{
+    text-decoration: none;
+    color: #000000;
+    margin-left: 30%;
+}
+
+#sobre1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 25px;
+    margin-top: -9rem;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 30%;
+}
+
+#campanhas1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 25px;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 30%;
+}
+
+#noticias1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 25px;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 30%;
+}
+
+#contate{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 25px;
+    margin-top: -118px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 50%;
+}
+
+#FAQ{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 25px;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 50%;
+}
+
+#lorem{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 25px;
+    margin-top: -75px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 70%;
+    align-items: center;
+}
+
+ a{
+    text-decoration: none;
+ }
+
+
+
