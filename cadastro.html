@@ -1,13 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Página de Cadastro</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 </head>
 <body>
- <h1>Hello World</h1>   
+  <div class="page">
+    <section>
+      <br>
+      <br>
+      <fieldset>
+        <br>
+        <br>
+        <div class="centralizado">
+          <li><a href="landingPage.html"> <img id="logotype" src = images\ongfinderlogo.png 1.png alt="logo do site"> </a></li>
+        </div>
+          <h1>Faça seu Cadastro</h1>
+    <form>
+      <div>
+        <label for="nome">Nome completo:</label>
+        <br>
+        <input type="text" class ="meu-input" id="nome" name="nome" required>
+      </div>
+      <br>
+      <div>
+        <label for="email">E-mail:</label>
+        <br>
+        <input type="email" class ="meu-input" id="email" name="email" required>
+      </div>
+      <br>
+      <div>
+        <label for="Dtnasc">Data de nascimento:</label>
+        <br>
+        <input type="Dtnasc" class ="meu-input" id="Dtnasc" name="Data de nascimento" required>
+      </div>
+      <br>
+      <label for="CPF">CPF:</label>
+      <br>
+      <input type="text"  class ="meu-input" id="CPF" name="CPF" required>
+      <div>
+        <br>
+        <label for="senha">Senha:</label>
+        <br>
+        <input type="password" class ="meu-input" id="senha" name="senha" required>
+      </div>
+      <br>
+      <div>
+        <label for="confirmar-senha">Confirmar Senha:</label>
+        <br>
+        <input type="password" class ="meu-input" id="confirmar-senha" name="confirmar-senha" required>
+      </div>
+      <div class="centralizado">
+        <br>
+        <input type="submit" style="background-color:rgba(18, 135, 186, 0.2)" value="Cadastre-se">
+      </div>
+      <br>
+    </fieldset>
+      <br>
+    </form>
+  </section>
+  
+  <footer>
+    <div class="centralizado"
+    <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+  </div>
+  </footer>
+</div>
 </body>
 </html>
