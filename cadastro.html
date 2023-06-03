@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Página de Inscrição de ong</title>
+  <title>Página de Cadastro</title>
   <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 </head>
 <body>
@@ -16,18 +16,12 @@
         <div class="centralizado">
           <li><a href="landingPage.html"> <img id="logotype" src = images\ongfinderlogo.png 1.png alt="logo do site"> </a></li>
         </div>
-          <h1>Formulário de Inscrição</h1>
+          <h1>Faça seu Cadastro</h1>
     <form>
       <div>
-        <label for="nome">Nome da ONG:</label>
+        <label for="nome">Nome completo:</label>
         <br>
         <input type="text" class ="meu-input" id="nome" name="nome" required>
-      </div>
-      <br>
-      <div>
-        <label for="missão">Missão:</label>
-        <br>
-        <input type="text" class ="meu-input" id="Missão" name="Missão">
       </div>
       <br>
       <div>
@@ -37,17 +31,16 @@
       </div>
       <br>
       <div>
-        <label for="cnpj">CNPJ:</label>
+        <label for="Dtnasc">Data de nascimento:</label>
         <br>
-        <input type="CNPJ" class ="meu-input" id="CNPJ" name="CNPJ" required>
+        <input type="Dtnasc" class ="meu-input" id="Dtnasc" name="Data de nascimento" required>
       </div>
       <br>
-      Breve descrição do trabalho da ONG:
+      <label for="CPF">CPF:</label>
       <br>
-      <textarea class="meu-input" style="background-color:rgba(18, 135, 186, 0.2)" id="texto-longo" rows="5" cols="4"></textarea>
-      <br>
-      <br>
+      <input type="text"  class ="meu-input" id="CPF" name="CPF" required>
       <div>
+        <br>
         <label for="senha">Senha:</label>
         <br>
         <input type="password" class ="meu-input" id="senha" name="senha" required>
@@ -62,6 +55,7 @@
         <br>
         <input type="submit" style="background-color:rgba(18, 135, 186, 0.2)" value="Cadastre-se">
       </div>
+      <br>
     </fieldset>
       <br>
     </form>

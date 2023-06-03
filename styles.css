@@ -8,6 +8,7 @@
     background-color: #F6FAFC;
   }  
 
+  
 #logotype {
     width: 128px;
     height: auto;
@@ -139,3 +140,38 @@ h1 {
     width: 100%;
     background-color: #d9d9d9;
 }
+.centralizado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  fieldset {
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #F6FAFC;
+    border: solid 2px
+  }
+  .page {
+    background-color: rgba(18, 135, 186, 0.2); 
+  }
+  input.meu-input {
+    width: 100%;
+    height: 22px;
+    box-sizing: border-box;
+    background-color:rgba(18, 135, 186, 0.2)
+}
+    textarea.meu-input {
+    width: 99%;
+    resize: vertical;
+}
+input.meu-input,
+textarea.meu-input {
+    border: 2px solid #C4C4CC;
+}
+.centralizado #logotype {
+    width: 200px;
+    height: auto;
+  }
